@@ -27,7 +27,7 @@ function makeSound(key) {
 
   switch (key) {
     case "w":
-      var tom1 = new Audio("sound.mp3");
+      var tom1 = new Audio("sounds/tom-1.mp3");
       tom1.play();
       break;
 
@@ -60,7 +60,6 @@ function makeSound(key) {
       var kick = new Audio('sounds/kick-bass.mp3');
       kick.play();
       break;
-
 
     default: console.log(key);
 
